@@ -5,7 +5,8 @@
 dict1= {'k1': 23, 'k2': 23, 'k3': 23, 'k2': 45}  # keys are diff not accept repeat key and values are accepts repeat values. 
 
 
-print(type(dict1))
+print(type(dict1)) # Type of Dict1
+print(len(dict1))  # Len of Dict1
 print(dict1)
 
 
