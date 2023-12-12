@@ -8,13 +8,6 @@ queset = {
     'Q5': {'Q': "Which type of loops are not supported in python?", 'A': "do-while"}
     }
 
-
-for k,v in queset.items():
-    
-    Ans= input(f"{k}: {v['Q']} ")
-
-    print("Ans: ", Ans)
-
 '''
 
 
@@ -25,7 +18,7 @@ for i in range(1,11):
     User_Que= input(f"Enter A Que{i}? ")
     User_Ans= input(f"Enter Ans: ")
 
-    key= f'Q{i}'
+    key= f'Q{i}'     #store in key
 
     queset[key]={'Q':User_Que,'A': User_Ans}
 
